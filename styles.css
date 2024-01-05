@@ -1,0 +1,77 @@
+.container {
+    height: 100vh;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    font-family: sans-serif;
+}
+
+.inner input {
+    text-align: right;
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: dark grey;
+    width: 100%;
+    padding: 2rem;
+    overflow: hidden;
+    height: 5rem;
+    border-radius: 10px;
+    text-decoration: none;
+    letter-spacing: 0.3rem;
+    border: none;
+    outline: none;
+}
+
+.options {
+    display: grid;
+    border-radius: 10px;
+    padding: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    width: 100%;
+    padding: 1rem;
+    background-color: grey;
+    box-shadow: 2px 2px 40px 0px #181f32;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    width: 100%;
+    padding: 0.6rem 0;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.span-two {
+    grid-column: span 2;
+}
+
+.equalsButton {
+    background-color: rgb(255, 9, 9);
+    color: var(--white);
+}
+
+.lightGrayButton {
+    color: rgb(255, 250, 250);
+    background-color: rgb(8, 8, 8);
+}
